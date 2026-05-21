@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="media-container"></div>
+
+  <template id="card-template">
+    <div class="media-card">
+      <div class="info-section">
+        <div class="meta-header">
+          <span class="album-text album-el">Unknown</span>
+        </div>
+        
+        <div class="text-container">
+          <h3 class="title-el">No Media Playing</h3>
+          <p class="artist-el">Waiting for playback...</p>
+        </div>
+        
+        <div class="controls">
+          <button class="icon-btn prev-btn" title="Previous">⏮</button>
+          <button class="icon-btn play-btn" title="Play/Pause">⏯</button>
+          <button class="icon-btn next-btn" title="Next">⏭</button>
+        </div>
+      </div>
+      
+      <div class="art-section">
+        <img class="cover-el" src="" alt="">
+      </div>
+    </div>
+  </template>
+  <script src="popup.js"></script>
+</body>
+</html>
